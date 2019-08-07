@@ -62,3 +62,36 @@ At the end of this file you can see or add dependencies. This were created by de
 	spec.add_development_dependency "rspec", "~> 3.0"
 
 # TEST IT 
+
+Your test are written in the spec file inside your spec folder. 
+By default your spec file comes with 2 example test. One checks the version, and the other shows an error.
+Open your terminal in the root path of your gem and run:
+
+	bundle exec rspec spec/lib/TicGarciaToc_spec.rb
+
+One test passes and the other fails.
+The version is correct.
+The other expects a FALSE value and gets TRUE
+
+ok, here you can fix these test or write your own concerning your app. 
+It is recommended that you start doing your tests, run it and watch it fail, write your code and make it pass.(TDD)  
+
+# Build and Install
+Open your terminal and type the next command: 
+
+	$ gem build TicGarciaToc.gemspec
+	
+And watch to born your first ruby gem¡ TicGarciaToc-0.1.0.gem
+
+Installing it using the command:
+
+	$ gem install TicGarciaToc-0-1-0.gem
+	
+You are done¡
+
+If you file like proud you can publish it in https://rubygems.org/, this is optional.
+
+	$ gem push TicGarciaToc-0.1.0.gem
+	
+References:
+https://bundler.io/v1.13/guides/creating_gem
