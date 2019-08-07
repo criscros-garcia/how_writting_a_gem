@@ -1,17 +1,17 @@
-how_writting_a_gem
+How writting your first Ruby Gem¡
 ======
 Following this lite tutorial you will be able to create your first gem structure.
 
-Writting a Ruby Gem with Bundler
+	Writting a Ruby Gem with Bundler
 
-# Bundler is a tool that help us to manage Rubygems dependencies. Was released around the same time as Rails 3 and was when people knew about it.
+	Bundler is a tool that help us to manage Rubygems dependencies. Was released around the same time as Rails 3 and was when people knew about it.
 
-But guess what?.  Bundler works fine for writting our owns gems as well. In other words bundler is a gem that helps us out to write gems. We better build a gem if we would like to use our code elsewhere or to share it. This lite tutorial was using version 2.0.2. So you might get different outputs, altough steps are the same in general.
+	But guess what?.  Bundler works fine for writting our owns gems as well. In other words bundler is a gem that helps us out to write gems. We better build a gem if we would like to use our code elsewhere or to share it. This lite tutorial was using version 2.0.2. So you might get different outputs, altough steps are the same in general.
 
 So. Step number 1 is to install bundler gem.
 
 Open your terminal and type: 
-gem install bundler
+![alt text](https://github.com/criscros-garcia/how_writting_a_gem/blob/master/01_gem_install.png)
 
 You can check your version by running the command:
 $ bundle -v
@@ -29,9 +29,8 @@ LICENSE. Includes the MIT license.
 
 If you agree all of this. You would see a scafold structure like the next image.
 
-
-
-
+!(https://github.com/criscros-garcia/how_writting_a_gem/blob/master/01_gem_name.png)
+!(https://github.com/criscros-garcia/how_writting_a_gem/blob/master/03_gem_folders.png)
 
 In this point your gem, folders and files were created.
 
